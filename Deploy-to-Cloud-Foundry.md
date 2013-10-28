@@ -4,7 +4,7 @@
 
 You'll need a Cloud Foundry instance to deploy to. For those not already running Cloud Foundry on-premise, you can easily [create an account](https://console.run.pivotal.io/register) on the public Cloud Foundry instance at [run.pivotal.io](http://run.pivotal.io).
 
-By default, you'll be set up with three Cloud Foundry [spaces](http://docs.cloudfoundry.com/docs/using/managing-apps/orgs-and-spaces.html). We'll assume deployment to the 'development' space for the remainder of this tutorial, but the instructions apply for staging, production, or any other space you may wish to create.
+By default, you'll be set up with three Cloud Foundry [spaces](http://docs.cloudfoundry.com/docs/using/managing-apps/orgs-and-spaces.html)—one each for development, staging and production. We'll assume deployment to a space named 'development' for the remainder of this tutorial, but the instructions could apply to any space. See also [[Blue-Green Deployment on Cloud Foundry]].
 
 #### 2. Cloud Foundry command line interface
 
