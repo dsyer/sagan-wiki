@@ -1,4 +1,7 @@
 
- - [[Build and run locally]]
- - [[Import sources into IDE]]
- - [[Deploy to Cloud Foundry]]
+ - [[Get the code]]
+ - [[Build everything]]
+ - [[Use an IDE]]
+ - [[Run the site locally]]
+ - [[Run the site on Cloud Foundry]]
+ - [[Get started with Cloud Foundry]]
