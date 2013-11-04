@@ -4,13 +4,11 @@ Enable the use of search functionality when running the Sagan app on Cloud Found
 
 ### Background
 
-Out of the box, an attempt to run searches on Cloud Foundry, e.g. <http://localhost:8080/search?q=ApplicationContext> results in a 500 error.
-
-This is because the connection to the Elasticsearch server (which defaults to localhost:9200) is being refused.
+Out of the box, an attempt to run searches on Cloud Foundry will fail, resulting in a 500 error. This is because the connection to the Elasticsearch server (which defaults to localhost:9200) is being refused.
 
 ### Prerequisites
 
-1. You must be able to [[run the site on Cloud Foundry]]
+1. [[Run the site on Cloud Foundry]]
 2. You must **either**:
     - [[Set up and initialize an Elasticsearch instance]], or
     - Ask <sagan-ops@gopivotal.com> for the production Elasticsearch URL and index name
