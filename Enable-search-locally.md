@@ -6,7 +6,7 @@ Enable the use of search functionality when running the Sagan app locally.
 
 Out of the box, an attempt to run searches locally, e.g. <http://localhost:8080/search?q=ApplicationContext> results in a 500 error.
 
-This is because the connection to the Elasticsearch server is being refused. By 
+This is because the connection to the Elasticsearch server (which defaults to localhost:9200) is being refused.
 
 ### Prerequisites
 
