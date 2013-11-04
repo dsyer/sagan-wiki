@@ -21,11 +21,14 @@ This is because the connection to the Elasticsearch server (which defaults to lo
 
 Run the site as per usual (using `java -jar` or `gradle run` syntax), supplying -D system property flags to override the Elasticsearch defaults:
 
-    java -jar sagan-site.jar \
+    java \
         -Delasticsearch.client.endpoint=$URL \
-        -Delasticsearch.client.index=$INDEX
+        -Delasticsearch.client.index=$INDEX \
+        -jar sagan-site.jar
 
 where `$URL` and `$INDEX` above are the values determined in step 2 of the prerequisites section.
+
+> **NOTE**: it is important that the `-jar` option and its argument come *after* the `-D` flags. Otherwise, the `-D` flags will be treated as arguments to the application's `main` method.
 
 ### See also
 
