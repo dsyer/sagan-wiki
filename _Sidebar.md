@@ -4,3 +4,5 @@
  - [[Use an IDE]]
  - [[Run the site locally]]
  - [[Run the site on Cloud Foundry]]
+ - [[Enable search locally]]
+ - [[Enable search on Cloud Foundry]]
