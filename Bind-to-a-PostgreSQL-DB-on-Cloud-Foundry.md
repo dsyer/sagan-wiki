@@ -5,7 +5,7 @@ Use a PostgreSQL database on Cloud Foundry instead of the default in-memory H2 d
 ### Prerequisites
 
 1. [[Run the site on Cloud Foundry]]
-1. [[Configure 'sagan-db' ElephantSQL service]]
+1. [[Add a PostgreSQL service]]
 
 ### Steps
 

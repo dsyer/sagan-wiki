@@ -6,6 +6,7 @@
  - [[Run the site on Cloud Foundry]]
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
- - [[Bind to a PostgreSQL DB on Cloud Foundry]]
+ - [[Add a PostgreSQL service]]
+ - [[Bind to a PostgreSQL service]]
  - [[Export a PostgreSQL dump]]
  - [[Import a PostgreSQL dump]]
