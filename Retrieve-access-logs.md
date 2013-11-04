@@ -14,5 +14,5 @@ where `YYYY-MM-DD` is a date between now and the time the application was starte
 
 Note you may also browse for available files with
 
-    $ cf file sagan app/logs
+    $ cf files sagan app/logs
 
