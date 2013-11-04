@@ -58,4 +58,3 @@ where `$DB_URL` is the URL displayed from the "Manage" link available on the "sa
 ### Next steps
 
  - [[Import a PostgreSQL dump]]
- - [[Create a blog post]]
