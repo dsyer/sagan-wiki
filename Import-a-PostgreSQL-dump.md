@@ -6,6 +6,7 @@ Populate one Sagan database with the contents of another.
 
 1. A PostgreSQL DB with permissions to drop and create objects (referred to as `$DB_URL` below).
 1. Access to the file created by the instructions in [[export a PostgreSQL dump]] (referred to as `sagan-db.sql` below)
+1. A local PostgreSQL installation (for access to `pg_dump` command).
 
 ### Steps
 
