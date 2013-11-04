@@ -57,5 +57,5 @@ where `$DB_URL` is the URL displayed from the "Manage" link available on the "sa
 
 ### Next steps
 
- - [[Import from a DB dump]]
+ - [[Import a PostgreSQL dump]]
  - [[Create a blog post]]
