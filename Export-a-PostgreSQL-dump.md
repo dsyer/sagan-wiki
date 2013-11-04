@@ -5,7 +5,7 @@ Export the contents (schema and data) of one Sagan DB, typically for the purpose
 ### Prerequisites
 
 1. Access to the PostgreSQL DB to be dumped (referred to as `$DB_URL` below)
-1. A local PostgreSQL installation (for access to `pg_dump` and `psql` commands).
+1. A local PostgreSQL installation (for access to `pg_dump` command).
 
 ### Steps
 <pre>
