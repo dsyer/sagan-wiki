@@ -1,5 +1,5 @@
 
-## 1. Install JDK 8
+### 1. Install JDK 8
 
 The Sagan application is implemented using the latest Java SE 8 language features, and this means that you'll need to [install OpenJDK 8](https://jdk8.java.net/download.html), build 108 or greater.
 
@@ -10,7 +10,7 @@ Once installed, verify that JDK 8 binaries are properly on your PATH:
     Java(TM) SE Runtime Environment (build 1.8.0-ea-b108)
     Java HotSpot(TM) 64-Bit Server VM (build 25.0-b50, mixed mode)
 
-### Double-check JDK 8 installation
+#### Double-check JDK 8 installation
 
     $ ./gradlew -version
 

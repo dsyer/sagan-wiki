@@ -1,17 +1,17 @@
-## Goal
+### Goal
 
 Do X.
 
-## Prerequisites
+### Prerequisites
 
 1. [[A]]
 1. [[B]]
 
-## Steps
+### Steps
 
 ...
 
-## Next steps
+### Next steps
 
  - [[Y]]
  - [[Z]]

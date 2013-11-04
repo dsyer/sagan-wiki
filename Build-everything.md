@@ -1,16 +1,16 @@
 
-## Goal
+### Goal
 
 Compile, run tests, and assemble the executable JAR files for the Sagan applications.
 
-## Prerequisites
+### Prerequisites
 
 1. [[Get the code]]
 2. [[Install JDK 8]]
 
-## Steps
+### Steps
 
-### Build
+#### Build
 
 The following command will build both the Sagan site and indexer applications, running all unit and integration tests along the way:
 
@@ -18,14 +18,14 @@ The following command will build both the Sagan site and indexer applications, r
 
 > **TIP**: if you wish to skip longer-running integration tests, run the above with `-x integTests`. See also Gradle's documentation on [excluding tasks][].
 
-### Verify
+#### Verify
 
 When the build is complete, you should now have the following two JARs in place:
 
     sagan-site/build/libs/sagan-site.jar
     sagan-indexer/build/libs/sagan-indexer.jar
 
-## Next steps
+### Next steps
 
 You're now ready to [[Run the site locally]].
 

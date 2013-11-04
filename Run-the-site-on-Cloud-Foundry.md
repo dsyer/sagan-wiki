@@ -1,22 +1,22 @@
-## Goal
+### Goal
 
 Get the Sagan web app up and running under your own Cloud Foundry account.
 
-## Prerequisites
+### Prerequisites
 
 1. [[Get started with Cloud Foundry]]
 1. [[Get the code]]
 
-## Steps
+### Steps
 
-### Build the executable sagan-site JAR
+#### Build the executable sagan-site JAR
 
     $ cd $SAGAN_HOME/sagan-site
     $ ../gradlew build -x check
 
 > **Note:** When the above is complete, you will find the JAR file at `build/libs/sagan-site.jar`
 
-### Push the site to Cloud Foundry
+#### Push the site to Cloud Foundry
 
 In the command below, you will provide a `--host` argument, which will be used to form the URL `http://[host].cfapps.io`. The recommended host naming scheme is `$GHUSER-sagan`, where `$GHUSER` is your personal GitHub username. This approach helps avoid naming conflicts with other users who are deploying the Sagan app to Cloud Foundry under the shared `cfapps.io` domain. The host value of `cbeams-sagan` is used as an example below.
 
@@ -41,7 +41,7 @@ You should now see output similar to the following, as the app is uploaded and s
     Push successful! App 'sagan' available at http://cbeams-sagan.cfapps.io
 
 
-### Explore the running site
+#### Explore the running site
 
 You should now be able to visit the site at http://[host].cfapps.io and browse around. You will notice that search functionality does not yet work and that the blog and team pages are empty.
 
