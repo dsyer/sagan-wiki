@@ -21,10 +21,7 @@ This is because the connection to the Elasticsearch server (which defaults to lo
 
 Run the site as per usual (using `java -jar` or `gradle run` syntax), supplying -D system property flags to override the Elasticsearch defaults:
 
-    java \
-        -DELASTICSEARCH_ENDPOINT=$URL \
-        -DELASTICSEARCH_INDEX=$INDEX \
-        -jar sagan-site.jar
+    java -DELASTICSEARCH_ENDPOINT=$URL -DELASTICSEARCH_INDEX=$INDEX -jar sagan-site.jar
 
 where `$URL` and `$INDEX` above are the values determined in step 2 of the prerequisites section.
 
