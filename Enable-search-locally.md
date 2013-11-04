@@ -19,7 +19,9 @@ This is because the connection to the Elasticsearch server (which defaults to lo
 
 #### Run the site locally with Elasticsearch properties
 
-    java -jar sagan-site.jar -Delasticsearch.client.endpoint=$URL -Delasticsearch.client.index=$INDEX
+    java -jar sagan-site.jar \
+        -Delasticsearch.client.endpoint=$URL \
+        -Delasticsearch.client.index=$INDEX
 
 Where `$URL` and `$INDEX` are the values determined in step 2 of the prerequisites above.
 
