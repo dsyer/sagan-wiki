@@ -48,4 +48,7 @@ You should now be able to visit the site at http://[host].cfapps.io and browse a
 
 ### Next steps
 
-At this point, the app is running against an in-memory H2 database. You may want to [[bind to a PostgreSQL DB on Cloud Foundry]].
+At this point, the app is running against an in-memory H2 database. You may want to:
+
+ - [[Add a PostgreSQL service]] and
+ - [[Bind to a PostgreSQL service]]
