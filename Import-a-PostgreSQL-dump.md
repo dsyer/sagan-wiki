@@ -15,3 +15,8 @@ Populate one Sagan database with the contents of another.
 
 where `$DB_URL` is of the form `postgres://USERNAME:PASSWORD@HOST:PORT/DBNAME`.
 
+
+### See also
+
+ - [[Export a PostgreSQL dump]]
+
