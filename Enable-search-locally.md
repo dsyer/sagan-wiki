@@ -19,11 +19,13 @@ This is because the connection to the Elasticsearch server (which defaults to lo
 
 #### Run the site locally with Elasticsearch properties
 
+Run the site as per usual (using `java -jar` or `gradle run` syntax), supplying -D system property flags to override the Elasticsearch defaults:
+
     java -jar sagan-site.jar \
         -Delasticsearch.client.endpoint=$URL \
         -Delasticsearch.client.index=$INDEX
 
-Where `$URL` and `$INDEX` are the values determined in step 2 of the prerequisites above.
+where `$URL` and `$INDEX` above are the values determined in step 2 of the prerequisites section.
 
 ### See also
 
