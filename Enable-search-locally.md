@@ -31,5 +31,5 @@ where `$URL` and `$INDEX` above are the values determined in step 2 of the prere
 
 ### See also
 
- - [[Run the indexer locally]]
+ - [[Run the search indexer locally]]
  - [[Enable search on Cloud Foundry]]
