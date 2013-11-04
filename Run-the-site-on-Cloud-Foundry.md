@@ -46,3 +46,6 @@ You should now see output similar to the following, as the app is uploaded and s
 You should now be able to visit the site at http://[host].cfapps.io and browse around. You will notice that search functionality does not yet work and that the blog and team pages are empty.
 
 
+### Next steps
+
+At this point, the app is running against an in-memory H2 database. You may want to [[bind to a PostgreSQL DB on Cloud Foundry]].
