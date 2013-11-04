@@ -4,7 +4,7 @@ Download HTTP access logs for the Sagan site application.
 
 ### Prerequisites
 
-1. [[Run the app on Cloud Foundry]]
+1. [[Run the site on Cloud Foundry]]
 
 ### Steps
 

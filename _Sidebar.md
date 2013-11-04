@@ -10,3 +10,4 @@
  - [[Bind to a PostgreSQL service]]
  - [[Export a PostgreSQL dump]]
  - [[Import a PostgreSQL dump]]
+ - [[Retrieve access logs]]
