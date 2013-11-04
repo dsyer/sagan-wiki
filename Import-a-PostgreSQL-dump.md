@@ -13,5 +13,5 @@ Populate one Sagan database with the contents of another.
 
     psql --file sagan-db.sql $DB_URL
 
-where `$DB_URL` is of the form postgres://USERNAME:PASSWORD@HOST:PORT/DBNAME.
+where `$DB_URL` is of the form `postgres://USERNAME:PASSWORD@HOST:PORT/DBNAME`.
 
