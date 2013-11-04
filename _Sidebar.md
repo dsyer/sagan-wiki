@@ -7,3 +7,5 @@
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
  - [[Bind to a PostgreSQL DB on Cloud Foundry]]
+ - [[Export a PostgreSQL dump]]
+ - [[Import a PostgreSQL dump]]
