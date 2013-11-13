@@ -14,4 +14,4 @@
 
 **Ops playbook**
  - [[Handle an outage]]
- - [[Roll back from a bad deployment]]
+ - [[Roll back from a failed deployment]]
