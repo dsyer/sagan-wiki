@@ -11,3 +11,6 @@
  - [[Export a PostgreSQL dump]]
  - [[Import a PostgreSQL dump]]
  - [[Retrieve access logs]]
+
+**Ops playbook**
+ - [[Handle an outage]]
