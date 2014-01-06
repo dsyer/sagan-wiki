@@ -22,7 +22,7 @@ If this is your first time, or you don't yet have a GitHub account, we recommend
  - <https://help.github.com/articles/set-up-git>
  - <https://help.github.com/articles/fork-a-repo>
 
-> **TIP**: If you're not a fan of the command line, you may also want to look into GitHub's desktop clients for [Mac](http://windows.github.com) and [Windows](http://mac.github.com).
+> **TIP**: If you're not a fan of the command line, you may also want to look into GitHub's desktop clients for [Mac](http://mac.github.com) and [Windows](http://windows.github.com).
 
 In any case, the goal is to clone your fork of the main repository, which should look like this:
 
@@ -61,6 +61,7 @@ Once you've completed any of the steps above, you should be able to
 where you'll find a directory structure that looks something like this:
 
     $ ls -1
+    CONTRIBUTING.md
     README.md
     build.gradle
     gradle
@@ -71,6 +72,7 @@ where you'll find a directory structure that looks something like this:
     sagan-site
     settings.gradle
     style
+    wiki
 
 ### Next steps
 
