@@ -1,4 +1,3 @@
-
 ### Goal
 
 Compile, run tests, and assemble the executable JAR files for the Sagan applications.
@@ -16,7 +15,7 @@ The following command will build both the Sagan site and indexer applications, r
 
     ./gradlew build
 
-> **TIP**: if you wish to skip longer-running integration tests, run the above with `-x integTests`. See also Gradle's documentation on [excluding tasks][].
+> **TIP**: if you wish to skip longer-running integration tests, run the above with `-x integTest`. See also Gradle's documentation on [excluding tasks][].
 
 #### Verify
 
