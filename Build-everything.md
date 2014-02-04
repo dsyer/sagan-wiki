@@ -5,7 +5,7 @@ Compile, run tests, and assemble the executable JAR files for the Sagan applicat
 ### Prerequisites
 
 1. [[Get the code]]
-2. [[Install JDK 8]]
+2. [[Install JDK]]
 
 ### Steps
 
