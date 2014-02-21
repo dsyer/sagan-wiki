@@ -25,7 +25,7 @@ Then run the app with `java -jar`:
 
 A few seconds later you'll see a log entry to the effect of
 
-    sagan.app.site.ApplicationConfiguration  : Started ApplicationConfiguration in 8.455 seconds
+    sagan.SiteMain  : Started SiteMain in 8.455 seconds
 
 And that means you can now browse the site at <http://localhost:8080>. Enjoy!
 
@@ -37,7 +37,7 @@ While it's important to understand the simple process of building and executing 
 
 #### Option 3: Run directly from within the IDE
 
-Assuming that you have followed the instructions to [[use an IDE]], you can easily run the application by opening the `sagan.app.site.ApplicationConfiguration` class and executing it's `main()` method.
+Assuming that you have followed the instructions to [[use an IDE]], you can easily run the application by opening the `sagan.SiteMain` class and executing it's `main()` method.
 
 
 ### Next steps
