@@ -15,7 +15,12 @@ The following command will build both the Sagan site and indexer applications, r
 
     ./gradlew build
 
-> **TIP**: if you wish to skip longer-running integration tests, run the above with `-x integTest`. See also Gradle's documentation on [excluding tasks][].
+> **NOTE**: Sagan uses the [Gradle](http://gradle.org) build system, and thanks to the [Gradle wrapper](http://www.gradle.org/docs/current/userguide/gradle_wrapper.html), there's nothing you need to install. Running the `./gradlew` script as above (or `gradlew.bat` on Windows) will fetch and use the correct Gradle binaries if you don't already have them installed on your system.
+
+> **TIP**: Check out the [`find-gradle`](https://github.com/cbeams/shell-scripts/blob/master/find-gradle) convenience script if you'd like to avoid relative pathing to the `gradlew` script.
+
+> **TIP**: if you wish to skip longer-running integration tests, run the above with `-x integTest`. See also Gradle's documentation on [excluding tasks](http://www.gradle.org/docs/current/userguide/tutorial_gradle_command_line.html#sec:excluding_tasks_from_the_command_line).
+
 
 #### Verify
 
@@ -26,7 +31,6 @@ When the build is complete, you should now have the following two JARs in place:
 
 ### Next steps
 
-You're now ready to [[Run the site locally]].
+You're now ready to [[run the site locally]].
 
 
-[excluding tasks]: http://www.gradle.org/docs/current/userguide/tutorial_gradle_command_line.html#sec:excluding_tasks_from_the_command_line
