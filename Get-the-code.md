@@ -1,6 +1,6 @@
 ### Goal
 
-Download the source code for the Sagan application to your local machine.
+Download the source code for the Sagan reference application to your local machine.
 
 ### Prerequisites
 
