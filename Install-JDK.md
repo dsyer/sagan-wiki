@@ -29,3 +29,7 @@ OS:           Mac OS X 10.9.2 x86_64
 ```
 
 Take note of the `JVM` entry above, and make sure it reads `1.7.0` (or greater). If it does not, check the value of your `JAVA_HOME` environment variable.
+
+### Next Steps
+
+[[Build everything]]
