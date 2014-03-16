@@ -1,8 +1,10 @@
-**How to**: _Get started_
+**How to**: (_The Basics_)
  - [[Get the source]]
  - [[Build everything]]
  - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]
+
+**How to**: (_Cloud Foundry_)
  - [[Run the site on Cloud Foundry]]
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
