@@ -31,6 +31,6 @@ When the build is complete, you should now have the following two JARs in place:
 
 ### Next steps
 
-You're now ready to [[run the site locally]].
+You're now ready to [[import into IDEA or Eclipse]] or you can [[run the site locally]] straight away.
 
 
