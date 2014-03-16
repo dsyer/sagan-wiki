@@ -1,6 +1,6 @@
 ### Goal
 
-Compile, run tests, and assemble the executable JAR files for the Sagan applications.
+Compile, run tests, and assemble the executable JAR files for the Sagan *indexer* and *site* applications.
 
 ### Prerequisites
 
