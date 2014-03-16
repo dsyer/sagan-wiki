@@ -32,4 +32,4 @@ Take note of the `JVM` entry above, and make sure it reads `1.7.0` (or greater).
 
 ### Next Steps
 
-You can now [[Build everything]].
+You can now [[build everything]].
