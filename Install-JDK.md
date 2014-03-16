@@ -1,8 +1,6 @@
 ### 1. Install JDK
 
-The Sagan application requires JDK 7. You can [download and install a JDK for your platform from java.net](https://jdk7.java.net/download.html).
-
-Note that Sagan runs perfectly fine on JDK 8 as well if you want to use the latest Java SE 8 language features, you should [[Install JDK 8]].
+The Sagan application requires JDK 7 or better. You can [download and install a JDK for your platform from java.net](https://jdk7.java.net/download.html). _Note: Sagan runs perfectly well on the newly-released JDK 8 as well._
 
 Once installed, verify that JDK 7 binaries are properly on your PATH:
 
