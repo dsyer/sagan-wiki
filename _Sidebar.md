@@ -1,5 +1,5 @@
 **How to**:
- - [[Get the code]]
+ - [[Get the source]]
  - [[Build everything]]
  - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]

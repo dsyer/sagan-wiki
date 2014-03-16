@@ -4,7 +4,7 @@ Compile, run tests, and assemble the executable JAR files for the Sagan *indexer
 
 ### Prerequisites
 
-1. [[Get the code]]
+1. [[Get the source]]
 2. [[Install JDK]]
 
 ### Steps

@@ -5,7 +5,7 @@ Get the Sagan web app up and running under your own Cloud Foundry account.
 ### Prerequisites
 
 1. [[Get started with Cloud Foundry]]
-1. [[Get the code]]
+1. [[Get the source]]
 
 ### Steps
 
