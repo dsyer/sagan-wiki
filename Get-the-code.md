@@ -8,7 +8,7 @@ Depending on the option you choose below, you'll need a local Git or Subversion 
 
 ### Steps
 
-The main repository for the Sagan application can be found at <https://github.com/spring-io/spring.io>. You have a few options as to how to sync these sources to your local machine:
+The main repository for the Sagan application can be found at <https://github.com/spring-io/sagan>. You have a few options as to how to sync these sources to your local machine:
 
 #### Option 1: Fork and clone using Git
 
@@ -26,7 +26,7 @@ If this is your first time, or you don't yet have a GitHub account, we recommend
 
 In any case, the goal is to clone your fork of the main repository, which should look like this:
 
-    $ git clone git@github.com:$GHUSER/spring.io.git
+    $ git clone git@github.com:$GHUSER/sagan.git
 
 ... where `$GHUSER` is your GitHub username.
 
@@ -35,7 +35,7 @@ In any case, the goal is to clone your fork of the main repository, which should
 
 If you do not wish to create your own fork of the repository, you can always clone the main repo directly:
 
-    $ git clone git@github.com:spring-io/spring.io.git
+    $ git clone git@github.com:spring-io/sagan.git
 
 > **NOTE:** This approach does not require you to have a GitHub account; it only requires that you have Git installed.
 
@@ -44,12 +44,12 @@ If you do not wish to create your own fork of the repository, you can always clo
 
 If using Subversion is more convenient for you than Git, you can check out the sources with the following command:
 
-    $ svn checkout https://github.com/spring-io/spring.io
+    $ svn checkout https://github.com/spring-io/sagan
 
 
 #### Option 4: Download and unpack zip file
 
-Simply download and unpack <https://github.com/spring-io/spring.io/archive/master.zip> in the directory of your choice.
+Simply download and unpack <https://github.com/spring-io/sagan/archive/master.zip> in the directory of your choice.
 
 
 ### Take a look around
@@ -67,6 +67,7 @@ where you'll find a directory structure that looks something like this:
     gradle
     gradlew
     gradlew.bat
+    sagan-client
     sagan-common
     sagan-indexer
     sagan-site
