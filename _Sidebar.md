@@ -1,10 +1,12 @@
-**How to**: (_The Basics_)
+**HOW TO**:
+
+(_Get started_)
  - [[Get the source]]
  - [[Build everything]]
  - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]
 
-**How to**: (_Cloud Foundry_)
+(_Run on Cloud Foundry_)
  - [[Run the site on Cloud Foundry]]
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
@@ -14,6 +16,10 @@
  - [[Import a PostgreSQL dump]]
  - [[Retrieve access logs]]
 
-**Ops playbook**
+(_Contribute_)
+ - File an issue
+ - Contribute
+
+(_spring.io production ops_)
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
