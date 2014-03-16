@@ -56,7 +56,7 @@ Simply download and unpack <https://github.com/spring-io/spring.io/archive/maste
 
 Once you've completed any of the steps above, you should be able to
 
-    $ cd spring.io
+    $ cd sagan
 
 where you'll find a directory structure that looks something like this:
 
