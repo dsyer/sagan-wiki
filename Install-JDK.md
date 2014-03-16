@@ -1,4 +1,4 @@
-### 1. Install JDK
+### Install
 
 The Sagan application requires JDK 7 or better. You can [download and install a JDK for your platform from java.net](https://jdk7.java.net/download.html).
 
@@ -9,7 +9,7 @@ Once installed, verify that JDK binaries are properly on your PATH:
     $ javac -version
     javac 1.7.0_08-ea
     
-#### Double-check JDK 7 installation
+### Verify Gradle uses correct JDK installation
 ```
 $ ./gradlew -version
 
@@ -28,4 +28,4 @@ JVM:          1.7.0_08-ea (Oracle Corporation 23.2-b09)
 OS:           Mac OS X 10.9.2 x86_64
 ```
 
-Take note of the `JVM` entry above, and make sure it reads `1.7.0` (or greater).
+Take note of the `JVM` entry above, and make sure it reads `1.7.0` (or greater). If it does not, check the value of your `JAVA_HOME` environment variable.
