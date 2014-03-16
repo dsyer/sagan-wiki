@@ -20,6 +20,6 @@
  - File an issue
  - Contribute
 
-(Operate spring.io in production)
+(_Operate spring.io in production_)
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
