@@ -1,7 +1,7 @@
 **How to**:
  - [[Get the code]]
  - [[Build everything]]
- - [[Use an IDE]]
+ - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]
  - [[Run the site on Cloud Foundry]]
  - [[Enable search locally]]
