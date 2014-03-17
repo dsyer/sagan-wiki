@@ -2,6 +2,8 @@
 
 Download the source code for the Sagan reference application to your local machine.
 
+> _**TIP**: If you're familiar with forking/cloning repositories via GitHub, you can skip the instructions below and just follow the normal procedure. When you're done, come back to this page, [take a look around](#take-a-look-around) and see about [next steps](#next-steps)._
+
 ### Prerequisites
 
 Depending on the option you choose below, you'll need a local Git or Subversion installation, or you can simply download and unpack a zip file. The choice is yours, but we recommend the git-based approach.
