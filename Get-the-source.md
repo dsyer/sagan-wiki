@@ -2,7 +2,7 @@
 
 Download the source code for the Sagan reference application to your local machine.
 
-> **NOTE**: If you're familiar with forking/cloning repositories via GitHub, you can skip the instructions below and just follow the normal procedure. When you're done, come back to this page, [take a look around](#take-a-look-around) and see about [next steps](#next-steps).
+> **TIP**: If you're familiar with forking/cloning repositories via GitHub, you can skip the instructions below and just follow the normal procedure. When you're done, come back to this page, [take a look around](#take-a-look-around) and see about [next steps](#next-steps).
 
 ### Prerequisites
 
