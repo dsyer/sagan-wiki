@@ -14,7 +14,7 @@ Get the Sagan web app up and running under your own Cloud Foundry account.
     $ cd $SAGAN_HOME/sagan-site
     $ ../gradlew build -x check
 
-> **Note:** When the above is complete, you will find the JAR file at `build/libs/sagan-site.jar`
+> _**Note:** When the above is complete, you will find the JAR file at `build/libs/sagan-site.jar`_
 
 #### Push the site to Cloud Foundry
 

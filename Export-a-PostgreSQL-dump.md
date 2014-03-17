@@ -14,7 +14,7 @@ $ pg_dump $SOURCE_DB_URL \
           --file sagan-db.sql \
           --table memberprofile* --table post* --table schema_version
 </pre>
-> **TIP**: The `sagan-db.sql` output file will be tens of MB in size, but can be reduced to several MB using gzip.
+> _**TIP**: The `sagan-db.sql` output file will be tens of MB in size, but can be reduced to several MB using gzip._
 
 ### See also
 

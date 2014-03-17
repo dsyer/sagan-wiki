@@ -24,7 +24,7 @@ If this is your first time, or you don't yet have a GitHub account, we recommend
  - <https://help.github.com/articles/set-up-git>
  - <https://help.github.com/articles/fork-a-repo>
 
-> **TIP**: If you're not a fan of the command line, you may also want to look into GitHub's desktop clients for [Mac](http://mac.github.com) and [Windows](http://windows.github.com).
+> _**TIP**: If you're not a fan of the command line, you may also want to look into GitHub's desktop clients for [Mac](http://mac.github.com) and [Windows](http://windows.github.com)._
 
 In any case, the goal is to clone your fork of the main repository, which should look like this:
 
@@ -39,7 +39,7 @@ If you do not wish to create your own fork of the repository, you can always clo
 
     $ git clone git@github.com:spring-io/sagan.git
 
-> **NOTE:** This approach does not require you to have a GitHub account; it only requires that you have Git installed.
+> _**NOTE:** This approach does not require you to have a GitHub account; it only requires that you have Git installed._
 
 
 #### Option 3: Check out using Subversion

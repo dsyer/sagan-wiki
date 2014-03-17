@@ -27,7 +27,7 @@ Run the site as per usual (using `java -jar` or `gradle run` syntax), supplying 
 
 where `$URL` and `$INDEX` above are the values determined in step 2 of the prerequisites section.
 
-> **NOTE**: it is important that the `-jar` option and its argument come *after* the `-D` flags. Otherwise, the `-D` flags will be treated as arguments to the application's `main` method.
+> _**NOTE**: it is important that the `-jar` option and its argument come *after* the `-D` flags. Otherwise, the `-D` flags will be treated as arguments to the application's `main` method._
 
 ### See also
 

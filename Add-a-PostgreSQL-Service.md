@@ -8,7 +8,7 @@ Set up Postgres as a service using the ElephantSQL provider available from the C
 
 ### Steps
 
-> **NOTE**: These steps assume use of the public Cloud Foundry instance at http://run.pivotal.io and its marketplace.
+> _**NOTE**: These steps assume use of the public Cloud Foundry instance at http://run.pivotal.io and its marketplace._
 
 #### Add the ElephantSQL service
 
