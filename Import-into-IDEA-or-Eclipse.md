@@ -35,12 +35,9 @@ Import sagan sources into your IDE of choice.
  - [x] sagan-common
  - [x] sagan-indexer
  - [x] sagan-site
-1. Click "Finish"
+1. Click "Finish".
 1. You should now have all sources imported without errors.
-
-...
 
 ### Next steps
 
- - [[Y]]
- - [[Z]]
+You may now want to [[run the site locally]], and if you haven't already, this is a good time to read [[how things fit together]].
