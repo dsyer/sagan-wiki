@@ -6,7 +6,7 @@ Download the source code for the Sagan reference application to your local machi
 
 ### Prerequisites
 
-Depending on the option you choose below, you'll need a local Git or Subversion installation, or you can simply download and unpack a zip file. The choice is yours, but we recommend the git-based approach.
+Depending on the option you choose below, you'll need a local Git or Subversion installation, or you can simply download and unpack a zip file. The choice is yours, but we recommend the Git-based approach.
 
 ### Steps
 
