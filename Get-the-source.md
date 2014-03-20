@@ -54,29 +54,6 @@ If using Subversion is more convenient for you than Git, you can check out the s
 Simply download and unpack <https://github.com/spring-io/sagan/archive/master.zip> in the directory of your choice.
 
 
-### Take a look around
-
-Once you've completed any of the steps above, you should be able to
-
-    $ cd sagan
-
-where you'll find a directory structure that looks something like this:
-
-    $ ls -1
-    CONTRIBUTING.md
-    README.md
-    build.gradle
-    gradle
-    gradlew
-    gradlew.bat
-    sagan-client
-    sagan-common
-    sagan-indexer
-    sagan-site
-    settings.gradle
-    style
-    wiki
-
 ### Next steps
 
 Now that you've got the code, you'll want to learn how to [[build everything]] and [[run the site locally]]. From there you can explore many other options. Browse the wiki to see what's possible.
