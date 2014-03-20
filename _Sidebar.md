@@ -27,5 +27,5 @@ _Operate spring.io in production_
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
 
-_Misc_
+**MISC**:
  - [[Gradle tips]]
