@@ -3,11 +3,11 @@
 Import sagan sources into your IDE of choice.
 ### Prerequisites
 
-1. [[Get the source]]
-1. [[Install JDK 7]]
 1. Install the latest version of [STS](http://spring.io/tools/sts), [Eclipse](http://eclipse.org/downloads) or [Intellij IDEA](http://www.jetbrains.com/idea).
+> _**Note**: The instructions here have been tested against STS 3.4.0, IDEA 13.0.2 and IDEA 13.1 EAP._
+1. [[Build everything]] (from the command line first)
 
-> _**NOTE**: The instructions here have been tested against STS 3.4.0, IDEA 13.0.2 and IDEA 13.1 EAP._
+
 
 ### Steps
 
@@ -41,4 +41,3 @@ Import sagan sources into your IDE of choice.
 ### Next steps
 
 You may now want to [[run the site locally]], and if you haven't already, this is a good time to read [[how things fit together]].
-
