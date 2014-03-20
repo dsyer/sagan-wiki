@@ -10,20 +10,20 @@ Install and configure an ElasticSearch instance that will be used by sagan-site.
 
 #### Install ElasticSearch
 
-Download and extract [ElasticSearch binaries](http://www.elasticsearch.org/download/) into a directory.
+Download and extract [ElasticSearch binaries](http://www.elasticsearch.org/downloads/0-90-12/) into a directory.
 
-From, that directory:
+> _**Note**: Sagan requires Elasticsearch 0.90.x to enable search_
 
-    $ cd elasticsearch-0.90.9
+    $ cd elasticsearch-0.90.12
     $ ./bin/elasticsearch -v
-      Version: 0.90.9, Build: a968646/2013-12-23T10:35:28Z, JVM: 1.8.0-ea
+      Version: 0.90.12, Build: 26feed7/2014-02-25T15:38:23Z, JVM: 1.8.0
 
 #### Install ElasticSearch plugins (optional)
 
 You can locally install plugins that will help you to inspect indices and types.
 The [elasticsearch-head plugin](http://mobz.github.io/elasticsearch-head/) is quite useful for this task.
 
-    $ cd elasticsearch-0.90.9
+    $ cd elasticsearch-0.90.12
     $ ./bin/plugin -install mobz/elasticsearch-head
       -> Installing mobz/elasticsearch-head...
       Trying https://github.com/mobz/elasticsearch-head/archive/master.zip...
@@ -41,16 +41,16 @@ Check that the instance is running:
       {
         "ok" : true,
         "status" : 200,
-        "name" : "Maria Hill",
+        "name" : "High-Tech",
         "version" : {
-          "number" : "0.90.9",
-          "build_hash" : "a968646da4b6a2d9d8bca9e51e92597fe64e8d1a",
-          "build_timestamp" : "2013-12-23T10:35:28Z",
+          "number" : "0.90.12",
+          "build_hash" : "26feed79983063ae83bfa11bd4ce214b1f45c884",
+          "build_timestamp" : "2014-02-25T15:38:23Z",
           "build_snapshot" : false,
           "lucene_version" : "4.6"
         },
-        "tagline" : "You Know, for Search"
-      }
+      "tagline" : "You Know, for Search"
+     }
 
 If the head plugin is installed, its UI is available here: <http://localhost:9200/_plugin/head/> 
 
@@ -63,8 +63,8 @@ Now that the instance is running, go to your Sagan workspace and set up the Saga
 
       usage: ./recreate-elasticsearch-index.sh ENDPOINT INDEX
 
-      where ENDPOINT is the path to the qbox.io endpoint (or http://localhost:9200)
-        and INDEX is the name of the endpoint, e.g. 'sagan-production'
-    $ ./recreate-elasticsearch-index.sh http://localhost:9200 sagan-dev
+      where ENDPOINT is the path to the endpoint (when installed locally, http://localhost:9200)
+        and INDEX is the name of the endpoint, e.g. 'sagan'
+    $ ./recreate-elasticsearch-index.sh http://localhost:9200 sagan
 
 Remember that you'll have to use both arguments as JVM env variables `ELASTICSEARCH_ENDPOINT` and `ELASTICSEARCH_INDEX` when [[running Sagan locally|Enable-search-locally#run-the-site-locally-with-elasticsearch-properties]].
