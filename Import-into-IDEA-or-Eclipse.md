@@ -7,7 +7,7 @@ Import sagan sources into your IDE of choice.
 > _**Note**: The instructions here have been tested against STS 3.4.0, IDEA 13.0.2 and 13.1._
 
 2\. [[Build everything]]
-> _**Note**: It is important to first build everything from the command line to ensure that everything works as expected before importing into your IDE.
+> _**Note**: It is important to first build everything from the command line to ensure that everything works as expected before importing into your IDE._
 
 
 ### Steps
