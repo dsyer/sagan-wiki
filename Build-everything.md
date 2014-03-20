@@ -14,13 +14,14 @@ Compile, run tests, and assemble the executable JAR files for the Sagan *indexer
 
 From within the root directory of your repository, the following command will build both the Sagan site and indexer applications, running all unit and integration tests along the way:
 
+> _**Tip**: New to Gradle? Be sure to read the [[Gradle tips]] page!_
+
     ./gradlew build
 
 Or, on Windows:
 
     gradlew.bat build
 
-> _**Tip**: New to Gradle? Be sure to read the [[Gradle tips]] page!_
 
 When the build is finished, you should see the following:
 ```
