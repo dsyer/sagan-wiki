@@ -1,4 +1,4 @@
-## How to
+**How to:**
 
 _Get started_
  - [[Get the source]]
