@@ -20,8 +20,8 @@ _Get help_
  - [[Ask a question]]
 
 _Contribute_
- - File an issue
- - Contribute
+ - [[Report an issue]]
+ - [[Submit a pull request]]
 
 _Operate spring.io in production_
  - [[Handle an outage]]
