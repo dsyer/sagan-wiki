@@ -17,7 +17,7 @@ _Run on Cloud Foundry_
  - [[Retrieve access logs]]
 
 _Get help_
- - Ask a question
+ - [[Ask a question]]
 
 _Contribute_
  - File an issue
