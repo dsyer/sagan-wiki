@@ -1,4 +1,4 @@
-> _**Tip:** If you're familiar with forking/cloning repositories via GitHub, you can most of this page and just follow the normal procedure. Once you've got the repository cloned, come back to this page, [take a look around](#take-a-look-around) and see about [next steps](#next-steps)._
+> _**Tip:** If you're familiar with forking/cloning repositories via GitHub, you can most of this page and just follow the normal procedure. Once you've got the repository cloned, come back and see about [next steps](#next-steps)._
 
 ### Goal
 
