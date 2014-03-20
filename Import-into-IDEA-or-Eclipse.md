@@ -28,12 +28,6 @@ Import sagan sources into your IDE of choice.
 1. In Eclipse / STS, click File->Import->Existing Projects into Workspace.
 1. In the "Select root directory" field, click "Browse" and navigate to the root directory of your sagan repository clone and click "Open".
 1. Check the "Search for nested projects" box.
-1. You should now see five projects selected as follows:
- - [x] sagan
- - [x] sagan-client
- - [x] sagan-common
- - [x] sagan-indexer
- - [x] sagan-site
 1. Click "Finish".
 1. You should now have all sources imported without errors.
 
