@@ -15,7 +15,7 @@ Run the Sagan site application locally, so that it can be browsed at <http://loc
 ./gradlew :sagan-site:bootRun
 ```
 
-2\. After a few seconds, you should see the following:
+2\. After a few seconds, you should see:
 ```
 sagan.SiteMain  : Started SiteMain in 8.455 seconds
 ```
