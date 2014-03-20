@@ -12,7 +12,7 @@ Install and configure an ElasticSearch instance that will be used by sagan-site.
 
 Download and extract [ElasticSearch binaries](http://www.elasticsearch.org/downloads/0-90-12/) into a directory.
 
-> _**Note**: Sagan requires Elasticsearch 0.90.x to enable search_
+> _**Note:** Sagan requires Elasticsearch 0.90.x to enable search_
 
     $ cd elasticsearch-0.90.12
     $ ./bin/elasticsearch -v

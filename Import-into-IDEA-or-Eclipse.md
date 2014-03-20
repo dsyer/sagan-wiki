@@ -4,15 +4,15 @@ Import sagan sources into your IDE of choice.
 ### Prerequisites
 
 1\. Install the latest version of [STS](http://spring.io/tools/sts), [Eclipse](http://eclipse.org/downloads) or [Intellij IDEA](http://www.jetbrains.com/idea).
-> _**Note**: The instructions here have been tested against STS 3.4.0, IDEA 13.0.2 and 13.1._
+> _**Note:** The instructions here have been tested against STS 3.4.0, IDEA 13.0.2 and 13.1._
 
 2\. [[Build everything]]
-> _**Note**: It is important to first build everything from the command line to ensure that everything works as expected before importing into your IDE._
+> _**Note:** It is important to first build everything from the command line to ensure that everything works as expected before importing into your IDE._
 
 
 ### Steps
 
-> _**NOTE**: Both IDEA and Eclipse (STS, anyway), have dedicated support for directly importing Gradle-based projects. At the time of this writing, however, the sagan development team recommends using the `gradle idea` and `gradle eclipse` commands as below to generate IDE project metadata. Feel free to try importing directly from the build.gradle files if you wish, but what follows is the officially supported approach for now._
+> _**Note:** Both IDEA and Eclipse (STS, anyway), have dedicated support for directly importing Gradle-based projects. At the time of this writing, however, the sagan development team recommends using the `gradle idea` and `gradle eclipse` commands as below to generate IDE project metadata. Feel free to try importing directly from the build.gradle files if you wish, but what follows is the officially supported approach for now._
 
 #### IDEA
 

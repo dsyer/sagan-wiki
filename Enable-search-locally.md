@@ -25,6 +25,8 @@ Run the site as per usual, supplying environment variables to override the Elast
 
 where `$URL` and `$INDEX` above are the values determined in step 2 of the prerequisites section.
 
+> _**Note:** it is important that the `-jar` option and its argument come *after* the `-D` flags. Otherwise, the `-D` flags will be treated as arguments to the application's `main` method._
+
 ### See also
 
  - [[Run the search indexer locally]]

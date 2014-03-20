@@ -17,7 +17,7 @@ First, assemble the JAR file for the site:
 
     $ ./gradlew :sagan-site:build -x check
 
-> _**NOTE**: the `-x check` argument above skips running tests in the interest of time._
+> _**Note:** the `-x check` argument above skips running tests in the interest of time._
 
 Then run the app with `java -jar`:
 
