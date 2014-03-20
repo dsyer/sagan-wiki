@@ -12,8 +12,6 @@ Import sagan sources into your IDE of choice.
 
 ### Steps
 
-> _**Note:** Both IDEA and Eclipse (STS, anyway), have dedicated support for directly importing Gradle-based projects. At the time of this writing, however, the sagan development team recommends using the `gradle idea` and `gradle eclipse` commands as below to generate IDE project metadata. Feel free to try importing directly from the build.gradle files if you wish, but what follows is the officially supported approach for now._
-
 #### IDEA
 
 1. Run `./gradlew idea` from the root directory of your sagan repository clone.
