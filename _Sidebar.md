@@ -16,6 +16,9 @@ _Run on Cloud Foundry_
  - [[Import a PostgreSQL dump]]
  - [[Retrieve access logs]]
 
+_Get help_
+ - Ask a question
+
 _Contribute_
  - File an issue
  - Contribute
