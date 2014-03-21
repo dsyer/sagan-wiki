@@ -16,7 +16,9 @@ Once installed, verify that JDK binaries are properly on your PATH:
     javac 1.7.0_08-ea
     
 #### Verify Gradle uses correct JDK installation
+
 > _**Tip:** New to Gradle? Check out our [[Gradle tips]]._
+
 ```
 $ ./gradlew -version
 
