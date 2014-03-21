@@ -2,7 +2,7 @@
 
 _Get started_
  - [[Set up environment]]
-   - [[Install JDK7]]
+   - [[Install JDK 7]]
    - [[Install Node.js]]
    - [[Get the source]]
  - [[Build everything]]
