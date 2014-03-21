@@ -1,6 +1,6 @@
 ### Goal
 
-Sagan depends on a minimum of JDK 7 to build and run. If you already have this installed, skip below to [verify Gradle uses it](#verify)
+Sagan depends on a minimum of JDK 7 to build and run. If you already have this installed, skip below to [verify the Gradle build runs against it](#verify).
 
 ### Prerequisites
 
@@ -10,11 +10,9 @@ Sagan depends on a minimum of JDK 7 to build and run. If you already have this i
 
 #### Install
 
-The Sagan application requires JDK 7 or better. If you do not already have it installed, you can [download and install a JDK for your platform from java.net](https://jdk7.java.net/download.html).
+ - [Download and install a JDK for your platform from java.net](https://jdk7.java.net/download.html).
 
-> _Note: Sagan runs perfectly well on the newly-released JDK 8 as well._
-
-Once installed, verify that JDK binaries are properly on your PATH:
+ - Once installed, verify that JDK binaries are properly on your PATH:
 
     $ javac -version
     javac 1.7.0_08-ea
@@ -24,6 +22,7 @@ Once installed, verify that JDK binaries are properly on your PATH:
 
 > _**Tip:** New to Gradle? Check out our [[Gradle tips]]._
 
+ - Run the following command from the root of your sagan repository:
 ```
 $ ./gradlew -version
 
