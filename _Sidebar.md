@@ -1,7 +1,9 @@
 **How to:**
 
 _Get started_
- - [[Set up Environment]]
+ - [[Set up environment]]
+   - [[Install JDK7]]
+   - [[Install Node.js]]
    - [[Get the source]]
  - [[Build everything]]
  - [[Import into IDEA or Eclipse]]
