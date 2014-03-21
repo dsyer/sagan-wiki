@@ -20,9 +20,10 @@ Sagan depends on a minimum of JDK 7 to build and run. If you already have this i
 <a name="verify"/>    
 #### Verify Gradle uses correct JDK installation
 
+ 3\. Run the following command from the root of your sagan repository:
+
 > _**Tip:** New to Gradle? Check out our [[Gradle tips]]._
 
- 3\. Run the following command from the root of your sagan repository:
 ```
 $ ./gradlew -version
 
