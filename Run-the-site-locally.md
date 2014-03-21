@@ -4,9 +4,7 @@ Run the Sagan site application locally, so that it can be browsed at <http://loc
 
 ### Prerequisites
 
-1. [[Get the source]]
-1. [[Install Node.js]]
-1. [[Install JDK 7]]
+1. [[Set up environment]]
 
 ### Steps
 

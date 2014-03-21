@@ -1,7 +1,8 @@
 **How to:**
 
 _Get started_
- - [[Get the source]]
+ - [[Set up Environment]]
+   - [[Get the source]]
  - [[Build everything]]
  - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]
