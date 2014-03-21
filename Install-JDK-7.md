@@ -1,5 +1,7 @@
 ### Goal
 
+Sagan depends on a minimum of JDK 7 to build and run. If you already have this installed, skip below to [verify Gradle uses it](#verify)
+
 ### Prerequisites
 
  - _None_
@@ -16,7 +18,8 @@ Once installed, verify that JDK binaries are properly on your PATH:
 
     $ javac -version
     javac 1.7.0_08-ea
-    
+
+<a name="verify"/>    
 #### Verify Gradle uses correct JDK installation
 
 > _**Tip:** New to Gradle? Check out our [[Gradle tips]]._
