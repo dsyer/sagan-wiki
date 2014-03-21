@@ -18,4 +18,4 @@ v0.10.26
 
 ### Next steps
 
- - [[Build everything]]
+Return to [[set up environment]].
