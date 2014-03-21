@@ -1,6 +1,6 @@
 ### Goal
 
-Install Node.js 0.10 (or better) in order to run the sagan-client build.
+Install Node.js 0.10 (or better) in order to run the `sagan-client` build.
 
 ### Prerequisites
 
