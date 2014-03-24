@@ -11,7 +11,7 @@ Out of the box, an attempt to run searches on Cloud Foundry will fail, resulting
 1. [[Run the site on Cloud Foundry]]
 2. You must **either**:
     - [[Set up and initialize an Elasticsearch instance]], or
-    - Ask <sagan-ops@gopivotal.com> for the production Elasticsearch URL and index name
+    - [[Have access to an existing Elasticsearch instance]]
 
 ### Steps
 
