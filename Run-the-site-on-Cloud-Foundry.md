@@ -20,26 +20,21 @@ Get the Sagan web app up and running under your own Cloud Foundry account.
 
 In the command below, you will provide a `-n` argument, which will be used to form the URL `http://[host].cfapps.io`. The recommended host naming scheme is `$GHUSER-sagan`, where `$GHUSER` is your personal GitHub username. This approach helps avoid naming conflicts with other users who are deploying the Sagan app to Cloud Foundry under the shared `cfapps.io` domain. The host value of `cbeams-sagan` is used as an example below.
 
-    $ cf push --start -f manifest/generic.yml -n cbeams-sagan
+    $ cf push sagan -n cbeams-sagan
 
 You should now see output similar to the following, as the app is uploaded and started:
 
-    Using manifest file manifest/generic.yml
+    Creating app sagan in org bclozel / space development as brian@clozel.fr...
+    OK
+    Creating route bclozel-sagan.cfapps.io...
+    OK
+    Binding bclozel-sagan.cfapps.io to sagan...
+    OK
+    Uploading sagan...
+    Uploading from: /Users/bclozel/workspace/sagan/sagan-site
+    82.6M, 256 files    
 
-    Creating sagan... OK
-    Binding cbeams-sagan.cfapps.io to sagan... OK
-    Uploading sagan... OK
-    Preparing to start sagan... OK
-    -----> Downloaded app package (60M)
-    Initialized empty Git repository in /tmp/buildpacks/java-buildpack/.git/
-    -----> Downloading OpenJDK 1.7.0_45 from http://download.pivotal.io.s3.amazonaws.com/openjdk/lucid/x86_64/openjdk-1.7.0_45.tar.gz (1.1s)
-           Expanding JRE to .java (1.0s)
-    -----> Downloading Spring Auto-reconfiguration 0.7.2 from http://download.pivotal.io.s3.amazonaws.com/auto-reconfiguration/auto-reconfiguration-0.7.2.jar (0.1s)
-    -----> Uploading droplet (90M)
-    Checking status of app 'sagan'...
-      1 of 1 instances running (1 running)
-    Push successful! App 'sagan' available at http://cbeams-sagan.cfapps.io
-
+    
 
 #### Explore the running site
 
