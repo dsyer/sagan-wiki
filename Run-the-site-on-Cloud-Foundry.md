@@ -20,7 +20,6 @@ Get the Sagan web app up and running under your own Cloud Foundry account.
 
 In the command below, you will provide a `-n` argument, which will be used to form the URL `http://[host].cfapps.io`. The recommended host naming scheme is `$GHUSER-sagan`, where `$GHUSER` is your personal GitHub username. This approach helps avoid naming conflicts with other users who are deploying the Sagan app to Cloud Foundry under the shared `cfapps.io` domain. The host value of `cbeams-sagan` is used as an example below.
 
-    $ cf push --start -m manifest/generic.yml --host cbeams-sagan
     $ cf push --start -f manifest/generic.yml -n cbeams-sagan
 
 You should now see output similar to the following, as the app is uploaded and started:
