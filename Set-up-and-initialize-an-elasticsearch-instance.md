@@ -4,7 +4,7 @@ Install and configure an ElasticSearch instance that will be used by sagan-site.
 
 ### Prerequisites
 
-1. [[Enable search locally]]
+None.
 
 ### Steps
 
