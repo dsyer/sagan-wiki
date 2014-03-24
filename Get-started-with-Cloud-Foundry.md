@@ -26,7 +26,6 @@ $ cf login -a https://api.run.pivotal.io
   Password> your_password
   Org> your_org
   Space> your_space
-$ cf push your_app
 ```
 
 Additional information is available [in the cf documentation](http://docs.run.pivotal.io/devguide/installcf/whats-new-v6.html)
