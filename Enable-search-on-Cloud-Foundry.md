@@ -19,8 +19,8 @@ Out of the box, an attempt to run searches on Cloud Foundry will fail, resulting
 
 Assuming that the site is already running on Cloud Foundry per the prerequisites section, you need only to add environment variables to override the default values:
 
-    $ cf set-env --no-restart $APP_NAME ELASTICSEARCH_ENDPOINT $URL
-    $ cf set-env --no-restart $APP_NAME ELASTICSEARCH_INDEX $INDEX
+    $ cf set-env $APP_NAME ELASTICSEARCH_ENDPOINT $URL
+    $ cf set-env $APP_NAME ELASTICSEARCH_INDEX $INDEX
 
 where `$APP_NAME` is whatever you specified when following the instructions to [[run the site on Cloud Foundry]] (likely "sagan"); and where `$URL` and `$INDEX` are the values determined in step 2. of the prerequisites section.
 
