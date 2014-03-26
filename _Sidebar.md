@@ -30,6 +30,7 @@ _Contribute_
 _Operate spring.io in production_
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
+ - [[ElasticSearch Ops]]
 
 **Other:**
  - [[Gradle tips]]
