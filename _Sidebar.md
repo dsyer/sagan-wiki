@@ -30,5 +30,6 @@ _Operate spring.io in production_
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
 
-**Miscellaneous:**
+**Other:**
  - [[Gradle tips]]
+ - [[About the name "Sagan"]]
