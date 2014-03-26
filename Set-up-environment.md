@@ -8,9 +8,9 @@ Get everything you need to build, run and further explore the Sagan application 
 
 ### Steps
 
+ - [[Get the source]]
  - [[Install JDK 7]]
  - [[Install Node.js]]
- - [[Get the source]]
 
 ### Next steps
 

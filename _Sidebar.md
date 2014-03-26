@@ -2,9 +2,9 @@
 
 _Get started_
  - [[Set up environment]]
+   - [[Get the source]]
    - [[Install JDK 7]]
    - [[Install Node.js]]
-   - [[Get the source]]
  - [[Build everything]]
  - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]
