@@ -12,9 +12,8 @@ _None_
 
 #### Install
 
- 1\. [Download and install JDK 7](https://jdk7.java.net/download.html).
-
- 2\. Once installed, verify that JDK binaries are properly on your PATH:
+1. [Download and install JDK 7](https://jdk7.java.net/download.html).
+2. Once installed, verify that JDK binaries are properly on your PATH:
 
     $ javac -version
     javac 1.7.0_08-ea
