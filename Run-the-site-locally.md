@@ -25,6 +25,4 @@ sagan.SiteMain  : Started SiteMain in 8.455 seconds
 
 ### Next steps
 
- - [[Enable search locally]]
- - [[Import production data]]
- - [[Enable admin access locally]]
+At this point, you may want to [[build everything]] or [[import into IDEA or Eclipse]] if you have not already.
