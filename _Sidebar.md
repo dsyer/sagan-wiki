@@ -13,6 +13,7 @@ _Run on Cloud Foundry_
  - [[Run the site on Cloud Foundry]]
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
+ - [[Manage authentication in Sagan]]
  - [[Add a PostgreSQL service]]
  - [[Bind to a PostgreSQL service]]
  - [[Export a PostgreSQL dump]]
