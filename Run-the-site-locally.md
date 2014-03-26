@@ -9,6 +9,9 @@ Run the Sagan site application locally, so that it can be browsed at <http://loc
 ### Steps
 
 From the root directory of your sagan repository, run the following:
+
+> _**Tip:** New to Gradle? Check out [[Gradle tips]]!_
+
 ```
 ./gradlew :sagan-site:bootRun
 ```
