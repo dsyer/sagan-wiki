@@ -33,4 +33,4 @@ _Operate spring.io in production_
 
 **Other:**
  - [[Gradle tips]]
- - [[About the name Sagan]]
+ - [[About the name "Sagan"]]
