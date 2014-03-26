@@ -5,9 +5,9 @@ _Get started_
    - [[Get the source]]
    - [[Install JDK 7]]
    - [[Install Node.js]]
- - [[Build everything]]
- - [[Import into IDEA or Eclipse]]
  - [[Run the site locally]]
+ - [[Import into IDEA or Eclipse]]
+ - [[Build everything]]
 
 _Run on Cloud Foundry_
  - [[Run the site on Cloud Foundry]]
