@@ -60,4 +60,4 @@ Simply download and unpack <https://github.com/spring-io/sagan/archive/master.zi
 
 ### Next steps
 
-Now that you've got the code, you'll want to learn how to [[build everything]] and [[run the site locally]]. From there you can explore many other options. Browse the wiki to see what's possible.
+Complete the other steps in [[set up environment]] if you have not done so already. Then [[run the site locally]]. Browse the wiki to see what else is possible.
