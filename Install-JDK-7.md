@@ -12,7 +12,7 @@ _None_
 
 #### Install
 
- 1\. [Download and install a JDK for your platform from java.net](https://jdk7.java.net/download.html).
+ 1\. [Download and install] the correct JDK 7 package for your platform (https://jdk7.java.net/download.html).
 
  2\. Once installed, verify that JDK binaries are properly on your PATH:
 
