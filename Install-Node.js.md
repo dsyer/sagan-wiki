@@ -8,7 +8,7 @@ _None_
 
 ### Steps
 
-1. Go to http://nodejs.org and click "Install"
+1. Go to [nodejs.org](http://nodejs.org) and click "Install"
 2. Verify that the installation was successful:
 ```
 $ node --version
