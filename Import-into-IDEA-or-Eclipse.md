@@ -32,4 +32,4 @@ Import Sagan project sources into your IDE of choice.
 
 ### Next steps
 
-You may now want to [[run the site locally]].
+At this point, you may want to [[build everything]] or [[run the site locally]] if you have not already.
