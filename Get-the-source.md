@@ -1,6 +1,6 @@
 _If you're familiar with forking/cloning repositories via GitHub, you can skip most of this page and just follow the normal procedure:_
 
-    git clone git clone git@github.com:spring-io/sagan.git
+    git clone git@github.com:spring-io/sagan.git
 
 _Once you've got the repository cloned, come back and see about [next steps](#next-steps)._
 
