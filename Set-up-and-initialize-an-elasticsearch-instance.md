@@ -58,7 +58,7 @@ If the head plugin is installed, its UI is available here: <http://localhost:920
 
 Now that the instance is running, go to your Sagan workspace and set up the Sagan index, types and mappings.
 
-    $ cd ./util/
+    $ cd $SAGAN_HOME/util/
     $ ./recreate-elasticsearch-index.sh
 
       usage: ./recreate-elasticsearch-index.sh ENDPOINT INDEX
