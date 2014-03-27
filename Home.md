@@ -1,4 +1,3 @@
-
 ----
 
 ### Welcome to the Sagan wiki!
@@ -13,7 +12,7 @@
 
 ### Major work areas
 
-The Sagan development team is always monitoring incoming issues, but the following are the major areas that we're focused on in the near future. Generally, each are associated with a [milestone](TODO).
+The Sagan development team is always monitoring incoming issues, but the following are the major areas that we're focused on in the near future. Generally, each are associated with a [milestone](https://github.com/spring-io/sagan/issues/milestones).
 
 
 #### Release Sagan in the open
@@ -34,7 +33,7 @@ As mentioned in the blog post above, @bclozel, @cbeams and perhaps additional te
 
 _milestone:_ [docs](https://github.com/spring-io/sagan/issues?milestone=5)
 
-As a reference app, it's important to us that Sagan provides users with the ability to take a "self-guided tour" of its contents, and to find clean, modern, idiomatic use of Java and Spring everywhere they go. The deveolopment team is happy with the application as a whole (we wouldn't have released it in the open otherwise!), but there is definitely room for continued improvement. The two main areas are ensuring that there is at least class-level Javadoc for every component [https://github.com/spring-io/sagan/issues/327](#TODO) and README files throughout all key directories in the application [https://github.com/spring-io/sagan/issues/328](#TODO) (the latter makes for a great experience when browsing the repo via GitHub!). Stay tuned to the repository for those changes, as we'll be working on them actively over the coming days.
+As a reference app, it's important to us that Sagan provides users with the ability to take a "self-guided tour" of its contents, and to find clean, modern, idiomatic use of Java and Spring everywhere they go. The deveolopment team is happy with the application as a whole (we wouldn't have released it in the open otherwise!), but there is definitely room for continued improvement. The two main areas are ensuring that there is at least class-level Javadoc for every component [#327](https://github.com/spring-io/sagan/issues/327) and README files throughout all key directories in the application [#328](https://github.com/spring-io/sagan/issues/328) (the latter makes for a great experience when browsing the repo via GitHub!). Stay tuned to the repository for those changes, as we'll be working on them actively over the coming days.
 
 
 #### Make use of JDK8 language features
