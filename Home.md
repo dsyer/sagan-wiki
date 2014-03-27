@@ -19,7 +19,7 @@ The Sagan development team is always monitoring incoming issues, but the followi
 
 _milestone:_ [open-source](https://github.com/spring-io/sagan/issues?milestone=3)
 
-_UPDATE, March 27th:_ Done! Read all about it in the [announcement blog post](TODO).
+_UPDATE, March 27th:_ Done! Read all about it in the [announcement blog post](http://spring.io/blog/2014/03/27/project-sagan-open-sourcing-spring-io).
 
 
 #### Weekly blog series (next 4-5 weeks)
