@@ -10,15 +10,15 @@ Alerts are sent:
 
 ### When an outage occurs
 
-1. Post a message in the Sagan HipChat room that lets folks know you're aware of the problem and looking into it. Specifically @-mention any other admins you know may be on duty (especially those that may be getting woken up).
-1. Notice whether other spring.io properties, e.g. redirect.spring.io are down as well
+ - Post a message in the Sagan HipChat room that lets folks know you're aware of the problem and looking into it. Specifically @-mention any other admins you know may be on duty (especially those that may be getting woken up).
+ - Notice whether other spring.io properties, e.g. redirect.spring.io are down as well
 if multiple properties are down, this may indicate a problem with run.pivotal.io itself. See "Contacting the CF team" below.
-1. Verify that the site is actually down.
-```
-curl -I http://spring.io
-```
-404? 200?
-1. If the outage was significant in length, post a message from the [@SpringOps](http://twitter.com/SpringOps) account letting folks know we're back up after a bit of downtime.
+ - Verify that the site is actually down:
+
+    curl -I http://spring.io    # 404? 200?
+
+ - If the outage was significant in length, post a message from the [@SpringOps](http://twitter.com/SpringOps) account letting folks know we're back up after a bit of downtime.
+
 
 ### Contacting the CF team
 
