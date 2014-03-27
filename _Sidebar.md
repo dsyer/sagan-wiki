@@ -20,14 +20,7 @@ _Run on Cloud Foundry_
  - [[Import a PostgreSQL dump]]
  - [[Retrieve access logs]]
 
-_Get help_
- - [[Ask a question]]
-
-_Contribute_
- - [[Report an issue]]
- - [[Submit a pull request]]
-
-_Operate spring.io in production_
+**Production spring.io ops**
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
  - [[ElasticSearch Ops]]
