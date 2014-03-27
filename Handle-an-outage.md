@@ -4,8 +4,8 @@ spring.io and certain key legacy web properties such as www.springframework.org/
 
 Alerts are sent:
 
-via email and iOS for configured users
-to the Sagan HipChat room
+ - via email and iOS for configured users
+ - to the Sagan HipChat room
 
 
 ### When an outage occurs
@@ -18,7 +18,7 @@ if multiple properties are down, this may indicate a problem with run.pivotal.io
 curl -I http://spring.io
 ```
 404? 200?
-1. If the outage was significant in length, post a message from the @SpringCentral account letting folks know we're back up after a bit of downtime.
+1. If the outage was significant in length, post a message from the [@SpringOps](http://twitter.com/SpringOps) account letting folks know we're back up after a bit of downtime.
 
 ### Contacting the CF team
 
