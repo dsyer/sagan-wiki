@@ -19,7 +19,7 @@ Import Sagan project sources into your IDE of choice.
 1. From the "Welcome to IntelliJ IDEA" screen, click "Open Project".
 1. Navigate to the root directory of your sagan repository clone.
 1. Click "Choose".
-1. Go to "File -> Project Structure -> Project" and select "8.0" as project language level
+1. Click File->Project Structure->Project and select "8.0" as project language level
 1. You should now have all sources imported without errors.
 
 #### Eclipse/STS
