@@ -22,11 +22,11 @@ Import Sagan project sources into your IDE of choice.
 1. Click File->Project Structure->Project and select "8.0" as project language level
 1. You should now have all sources imported without errors.
 
-#### Eclipse/STS
+#### Spring Tool Suite
 
 1. Run `./gradlew eclipse` from the root directory of your sagan repository clone.
-1. In Eclipse / STS, click File->Import->Existing Projects into Workspace.
-1. In the "Select root directory" field, click "Browse" and navigate to the root directory of your sagan repository clone and click "Open".
+1. In STS, click File->Import->Existing Projects into Workspace.
+1. In the "Select root directory" field, click "Browse" and navigate to the root directory of your Sagan repository clone and click "Open".
 1. Check the "Search for nested projects" box.
 1. Click "Finish".
 1. You should now have all sources imported without errors.
