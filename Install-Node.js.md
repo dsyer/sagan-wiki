@@ -15,6 +15,8 @@ $ node --version
 v0.10.26
 ```
 
+_Note:_ If using Windows, verify that a `%APPDATA%\npm` folder has been created (or create it!), otherwise you may experience [this npm issue](https://github.com/npm/npm/issues/5905).
+
 ### Next steps
 
 Return to [[set up environment]].
