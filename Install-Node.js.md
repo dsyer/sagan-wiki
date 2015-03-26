@@ -2,6 +2,8 @@
 
 Install Node.js 0.10 (or better) in order to run the `sagan-client` build.
 
+_Note:_ Sagan does not build with Node.js 0.12 right now -  see [#506](https://github.com/spring-io/sagan/issues/506)
+
 ### Prerequisites
 
 _None_
