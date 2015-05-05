@@ -13,7 +13,6 @@ Import Sagan project sources into your IDE of choice.
 
 #### IDEA
 
-1. Run `./gradlew idea` from the root directory of your sagan repository clone.
 1. Open IDEA.
 1. If any projects are open, click File->Close Project for each.
 1. From the "Welcome to IntelliJ IDEA" screen, click "Open Project".
