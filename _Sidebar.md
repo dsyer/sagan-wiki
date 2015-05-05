@@ -23,7 +23,6 @@ _Run on Cloud Foundry_
 **Production spring.io ops**
  - [[Handle an outage]]
  - [[Roll back from a failed deployment]]
- - [[ElasticSearch Ops]]
 
 **Other:**
  - [[Gradle tips]]
