@@ -9,20 +9,22 @@ Out of the box, an attempt to run searches on Cloud Foundry will fail, resulting
 ### Prerequisites
 
 1. [[Run the site on Cloud Foundry]]
-2. You must **either**:
-    - [[Set up and initialize an Elasticsearch instance]], or
-    - [[Have access to an existing Elasticsearch instance]]
 
 ### Steps
 
-#### Add CF environment variables for Elasticsearch properties
+> _**Note:** These steps assume use of the public Cloud Foundry instance at http://run.pivotal.io and its marketplace._
 
-Assuming that the site is already running on Cloud Foundry per the prerequisites section, you need only to add environment variables to override the default values:
+#### Add a Redis Marketplace service
 
-    $ cf set-env $APP_NAME ELASTICSEARCH_ENDPOINT $URL
-    $ cf set-env $APP_NAME ELASTICSEARCH_INDEX $INDEX
-
-where `$APP_NAME` is whatever you specified when following the instructions to [[run the site on Cloud Foundry]] (likely "sagan"); and where `$URL` and `$INDEX` are the values determined in step 2. of the prerequisites section.
+1. Visit the Cloud Foundry console at http://run.pivotal.io
+1. Click on the space where the site is running per the prerequisites section
+1. Click 'Add' in the Services section of the page
+1. Click 'Plan Options' on the 'Searchly Elasticsearch' service
+1. Select the service level. You can try things out with a _Starter instance_ with 5MB, but indexing all Sagan content (especially all blog posts and javadocs) can take up to 200-300MB.
+1. Click 'Buy this Plan'
+1. Name the instance 'sagan-search'
+1. Assign it to the correct space
+1. Choose your application in the 'Bind to an App' form.
 
 #### Restart the app to pick up new properties
 
@@ -30,8 +32,9 @@ where `$APP_NAME` is whatever you specified when following the instructions to [
 
 #### Verify
 
-You should now be able to see results when issuing a search.
+The search page should show errors anymore, but results may be empty because nothing has been indexed so far!
+Creating blog posts is a good way to get content indexed easily.
 
-### See also
+### Next steps
 
  - [[Run the search indexer on Cloud Foundry]]
