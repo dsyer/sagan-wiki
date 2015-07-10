@@ -10,8 +10,6 @@ Get a Cloud Foundry account and set up CLI tools.
 
 Go to https://run.pivotal.io/ and click on "sign up for free" for a new account if you don't already have one. 
 
-This will add you to the waiting list for new accounts. You can bypass this list with an invitation code.
-
 ### Install CLI tools
 
 Go to https://console.run.pivotal.io/tools and install the CLI tools for your platform.
