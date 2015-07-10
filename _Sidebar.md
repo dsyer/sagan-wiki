@@ -4,7 +4,6 @@ _Get started_
  - [[Set up environment]]
    - [[Get the source]]
    - [[Install JDK 8]]
-   - [[Install Node.js]]
  - [[Run the site locally]]
  - [[Import into IDEA or Eclipse]]
  - [[Build everything]]
