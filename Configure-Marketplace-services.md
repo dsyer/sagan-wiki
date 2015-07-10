@@ -24,7 +24,7 @@ Make your Sagan instance production ready with Marketplace services.
 
 When no Spring profiles are specified, the Sagan app assumes it should use its in-memory H2 database by default. Therefore, setting any active profile name will cause the app to assume there is a PostgreSQL database available. We'll use the profile name "staging" here, but it could be literally any value. See the `DatabaseConfiguration` class for details.
 
-    $ cf set-env sagan SPRING_PROFILES_ACTIVE staging
+    $ cf set-env $APP_NAME SPRING_PROFILES_ACTIVE staging
     Updating $APP_NAME... OK
 
 Verify with the following:
