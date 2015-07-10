@@ -24,4 +24,4 @@ Set up Redis as a service using the Redis Cloud provider available from the Clou
 
 ### Next steps
 
- - [[Configure Marketplace services|bind-the-sagan-app-to-those-services]]
+ - [[Configure Marketplace services]], see "Bind the Sagan app to those services"
