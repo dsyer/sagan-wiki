@@ -8,6 +8,8 @@ Make your Sagan instance production ready with Marketplace services.
 
 ### Steps
 
+> _**Note:** These steps assume use of the public Cloud Foundry instance at http://run.pivotal.io and its marketplace._
+
 #### Add Marketplace services to your Cloud Foundry space
 
 - First, [[Add a PostgreSQL Service]] for data persistence
@@ -15,26 +17,26 @@ Make your Sagan instance production ready with Marketplace services.
 
 #### Bind the Sagan app to those services
 
-    $ cf bind-service cbeams-sagan sagan-db
-    $ cf bind-service cbeams-sagan sagan-cache
+    $ cf bind-service $APP_NAME sagan-db
+    $ cf bind-service $APP_NAME sagan-cache
 
 #### Configure Sagan app's Spring profiles
 
 When no Spring profiles are specified, the Sagan app assumes it should use its in-memory H2 database by default. Therefore, setting any active profile name will cause the app to assume there is a PostgreSQL database available. We'll use the profile name "staging" here, but it could be literally any value. See the `DatabaseConfiguration` class for details.
 
     $ cf set-env sagan SPRING_PROFILES_ACTIVE staging
-    Updating sagan... OK
+    Updating $APP_NAME... OK
 
 Verify with the following:
 
     $ cf env sagan
-    Getting env for sagan... OK
+    Getting env for $APP_NAME... OK
 
     SPRING_PROFILES_ACTIVE: staging
 
 #### Restart the Sagan app
 
-    $ cf restart sagan
+    $ cf restart $APP_NAME
 
 #### Verify that the PostgreSQL DB has been initialized
 
