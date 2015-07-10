@@ -22,9 +22,9 @@ _Run on Cloud Foundry_
  - [[Import a PostgreSQL dump]]
  - [[Retrieve access logs]]
  - [[Handle an outage]]
+ - [How to remote debug Sagan](http://docs.spring.io/spring-boot/docs/current/reference/html/howto-build.html#howto-remote-debug-gradle-run)
  - [[Roll back from a failed deployment]]
 
 **Other:**
- - [How to remote debug Sagan](http://docs.spring.io/spring-boot/docs/current/reference/html/howto-build.html#howto-remote-debug-gradle-run)
  - [[Gradle tips]]
  - [[About the name]]
