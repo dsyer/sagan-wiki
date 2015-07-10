@@ -4,9 +4,9 @@ Import Sagan project sources into your IDE of choice.
 ### Prerequisites
 
  - [[Set up environment]]
- - Install the latest version (3.5.0 or better) of the [Spring Tool Suite](http://spring.io/tools/sts) or [Intellij IDEA](http://www.jetbrains.com/idea)
+ - Install the latest version (3.7.0 or better) of the [Spring Tool Suite](http://spring.io/tools/sts) or [Intellij IDEA](http://www.jetbrains.com/idea)
 
-> _**Note:** The steps below have been tested against STS 3.5.0 and IDEA 13.1._
+> _**Note:** The steps below have been tested against STS 3.5.0 and IDEA 14._
 
 
 ### Steps
