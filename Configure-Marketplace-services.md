@@ -29,7 +29,7 @@ When no Spring profiles are specified, the Sagan app assumes it should use its i
 
 Verify with the following:
 
-    $ cf env sagan
+    $ cf env $APP_NAME
     Getting env for $APP_NAME... OK
 
     SPRING_PROFILES_ACTIVE: staging
