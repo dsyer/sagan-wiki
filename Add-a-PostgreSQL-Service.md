@@ -24,4 +24,4 @@ Set up Postgres as a service using the ElephantSQL provider available from the C
 
 ### Next steps
 
- - [[Bind to a PostgreSQL service]]
+ - [[Add a Redis service]]
