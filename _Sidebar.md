@@ -10,8 +10,8 @@ _Get started_
 
 _Run on Cloud Foundry_
  - [[Get started with Cloud Foundry]]
- - [[Configure Marketplace services]]
  - [[Run the site on Cloud Foundry]]
+ - [[Configure Marketplace services]]
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
  - [[Manage authentication in Sagan]]
