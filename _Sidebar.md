@@ -25,5 +25,6 @@ _Run on Cloud Foundry_
  - [[Roll back from a failed deployment]]
 
 **Other:**
+ - [How to remote debug Sagan](http://docs.spring.io/spring-boot/docs/current/reference/html/howto-build.html#howto-remote-debug-gradle-run)
  - [[Gradle tips]]
  - [[About the name]]
