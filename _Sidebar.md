@@ -9,12 +9,12 @@ _Get started_
  - [[Build everything]]
 
 _Run on Cloud Foundry_
+ - [[Get started with Cloud Foundry]]
+ - [[Configure Marketplace services]]
  - [[Run the site on Cloud Foundry]]
  - [[Enable search locally]]
  - [[Enable search on Cloud Foundry]]
  - [[Manage authentication in Sagan]]
- - [[Add a PostgreSQL service]]
- - [[Bind to a PostgreSQL service]]
  - [[Export a PostgreSQL dump]]
  - [[Import a PostgreSQL dump]]
  - [[Retrieve access logs]]
