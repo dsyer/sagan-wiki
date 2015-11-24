@@ -14,7 +14,7 @@ Create a new run configuration with the class `sagan.SiteApplication`. Make sure
 
 Then use this run configuration to start the site!
 
-> _**Note:** Sagan is using [Spring Boot's developer tools features](http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html), such as LiveReload.
+> _**Note:** Sagan is using [Spring Boot's developer tools features](http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html), such as LiveReload._
 
 
 #### Run the site locally from the command line
