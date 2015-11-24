@@ -8,6 +8,16 @@ Run the Sagan site application locally, so that it can be browsed at <http://loc
 
 ### Steps
 
+#### Run the site locally from your IDE
+
+Create a new run configuration with the class `sagan.SiteApplication`. Make sure that this configuration refers to the `sagan-site` folder as a working directory. Some IDEs, like IntelliJ, support predefined variables like `$MODULE_DIR$`.
+
+Then use this run configuration to start the site!
+
+> _**Note:** Sagan is using [Spring Boot's developer tools features](http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html), such as LiveReload.
+
+
+#### Run the site locally from the command line
 From the root directory of your sagan repository, run the following:
 
 > _**Tip:** New to Gradle? Check out [[Gradle tips]]!_
@@ -16,11 +26,9 @@ From the root directory of your sagan repository, run the following:
 ./gradlew :sagan-site:bootRun
 ```
 
-> _**Note:** Spring Boot also allows running apps with the `java -jar` command, but this feature is not yet available in Sagan - see [#191](https://github.com/spring-io/sagan/pull/191) for more details._
-
 After a few seconds, you should see:
 ```
-sagan.SiteMain  : Started SiteMain in 8.455 seconds
+sagan.SiteApplication : Started SiteApplication
 ```
 
 Now, go to <http://localhost:8080> and you should see homepage. Click around and explore a bit—you should find the site is identical in every way to what you see at [spring.io](http://spring.io).
