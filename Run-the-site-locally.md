@@ -10,7 +10,7 @@ Run the Sagan site application locally, so that it can be browsed at <http://loc
 
 #### Run the site locally from your IDE
 
-Create a new run configuration with the class `sagan.SiteApplication`. Make sure that this configuration refers to the `sagan-site` folder as a working directory. Some IDEs, like IntelliJ, support predefined variables like `$MODULE_DIR$`.
+Create a new run configuration with the class `sagan.SiteApplication`.
 
 Then use this run configuration to start the site!
 
