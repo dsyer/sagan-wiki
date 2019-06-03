@@ -4,9 +4,9 @@ Import Sagan project sources into your IDE of choice.
 ### Prerequisites
 
  - [[Set up environment]]
- - Install the latest version (3.7.0 or better) of the [Spring Tool Suite](http://spring.io/tools/sts) or [Intellij IDEA](http://www.jetbrains.com/idea)
+ - Install the latest version (4.2.0 or better) of the [Spring Tool Suite](http://spring.io/tools/sts) or [Intellij IDEA](http://www.jetbrains.com/idea)
 
-> _**Note:** The steps below have been tested against STS 3.5.0 and IDEA 14._
+> _**Note:** The steps below have been tested against STS 4.2.1 and IDEA 14._
 
 
 ### Steps
@@ -23,10 +23,8 @@ Import Sagan project sources into your IDE of choice.
 
 #### Spring Tool Suite
 
-1. Run `./gradlew eclipse` from the root directory of your sagan repository clone.
-1. In STS, click File->Import->Existing Projects into Workspace.
+1. In STS, click File->Import->Gradle->Existing Gradle Project
 1. In the "Select root directory" field, click "Browse" and navigate to the root directory of your Sagan repository clone and click "Open".
-1. Check the "Search for nested projects" box.
 1. Click "Finish".
 1. You should now have all sources imported without errors.
 
